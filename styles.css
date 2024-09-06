@@ -164,3 +164,10 @@ nav {
   border: 2px solid white;
   margin: 0;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #747a82;
+  text-align: center;
+  padding: 2rem;
+}
