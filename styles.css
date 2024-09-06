@@ -140,3 +140,27 @@ nav {
   align-self: flex-end;
   padding-right: 3rem;
 }
+
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 900px;
+  padding: 2rem;
+  margin: 4rem auto;
+  border-radius: 6px;
+}
+
+.cta-text h3 {
+  color: #f9faf8;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+}
+
+.signup.blue {
+  border: 2px solid white;
+  margin: 0;
+}
