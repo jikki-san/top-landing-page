@@ -71,6 +71,7 @@ nav {
   color: #f9faf8;
   font-size: 1.125rem;
   font-weight: 700;
+  cursor: pointer;
   border: none;
   border-radius: 0.375rem;
   margin-top: 0.625rem;
