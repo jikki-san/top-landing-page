@@ -7,3 +7,67 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+nav {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+
+.logo a {
+  color: #f9faf8;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  li {
+    list-style: none;
+    a {
+      color: #e5e7eb;
+      font-size: 1.125rem;
+      text-decoration: none;
+    }
+  }
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding: 6rem;
+  img {
+    width: 500px;
+  }
+}
+
+.hero-text {
+  max-width: 500px;
+  h2 {
+    color: #f9faf8;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  p {
+    color: #e5e7eb;
+    font-size: 1.125rem;
+  }
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 8px 24px;
+}
